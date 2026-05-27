@@ -1,1 +1,15 @@
-Path problem
+Path Problem
+
+Given an n x m grid, where rows are numbered 
+from 1 to n and columns from 1 to m, there are x 
+blocked cells. Their positions are specified by the 
+array blockedPositions[i][] where 
+blockedPositions[i][1] represents the row and 
+blockedPositions[i][2] represents the column 
+position, using 1-based indexing.
+
+Starting from the top-left cell (1, 1), the goal is to 
+reach the bottom-right cell (n, m) without visiting 
+any blocked cells. Movement is allowed only up, 
+down, left or right.
+
