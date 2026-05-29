@@ -49,6 +49,7 @@ of cells visited = 6.
 Therefore, the answer = [2, 6].
 
 Grid image file: path-problem-grid-1.jpg
+For inline image rendering on GitHub, see: path-problem-description.md
 
 In the image, the red crosses represent the 
 blocked positions, the green stars represent the 
