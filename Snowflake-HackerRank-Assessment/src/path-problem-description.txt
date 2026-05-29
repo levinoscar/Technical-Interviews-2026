@@ -48,3 +48,26 @@ The strength of the path = 2, and the number
 of cells visited = 6.
 Therefore, the answer = [2, 6].
 
+Grid image file: path-problem-grid-1.jpg
+
+In the image, the red crosses represent the 
+blocked positions, the green stars represent the 
+cells visited, and the blue arrows represent the 
+path.
+
+Function Description
+Complete the function findOptimalPair in the 
+editor below.
+
+findOptimalPair has the following parameters:
+    int n: the number of rows in the grid
+    int m: the number of columns in the grid
+    int blockedPositions[x][2]: the blocked positions
+
+Returns
+    int[2]: the first integer represents the 
+    maximum strength possible, and the second 
+    represents the minimum number of cells visited 
+    with the maximum possible strength
+
+Constraints
