@@ -22,7 +22,7 @@ On following the path as shown below: (1, 1) -> (2, 1) -> (3, 1) -> (4, 1) -> (4
 The strength of the path = 2, and the number of cells visited = 6.
 Therefore, the answer = [2, 6].
 
-![Path Problem Grid](path-problem-grid-1.jpg)
+<img src="path-problem-grid-1.jpg" alt="Path Problem Grid" width="50%" />
 
 In the image, the red crosses represent the blocked positions, the green stars represent the cells visited, and the blue arrows represent the path.
 
