@@ -41,3 +41,18 @@ findOptimalPair has the following parameters:
 - int[2]: the first integer represents the maximum strength possible, and the second represents the minimum number of cells visited with the maximum possible strength
 
 ## Constraints
+
+- 1 ≤ n, m, x ≤ 5 * 10^4
+- 1 ≤ blockedPositions[i][1] ≤ n
+- 1 ≤ blockedPositions[i][2] ≤ m
+- Neither (1, 1) nor (n, m) is blocked.
+- It is guaranteed that 3 ≤ n * m ≤ 10^5
+- blockedPositions[i] ≠ blockedPositions[j] over all i ≠ j
+
+## Input Format for Custom Testing
+
+## Sample Case 0
+
+
+
+<img src="path-problem-grid-2.jpg" alt="Path Problem Grid" width="25%" />

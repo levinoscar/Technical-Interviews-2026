@@ -72,3 +72,8 @@ Returns
     with the maximum possible strength
 
 Constraints
+
+
+
+Grid image file: path-problem-grid-2.jpg
+For inline image rendering on GitHub, see: path-problem-description.md
