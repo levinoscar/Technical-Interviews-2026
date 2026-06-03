@@ -51,8 +51,55 @@ findOptimalPair has the following parameters:
 
 ## Input Format for Custom Testing
 
+The first line contains an integer n, the number of rows in the grid.
+The second line contains an integer m, the number of columns in the grid.
+The third line contains an integer x, the size of blockedPositions[].
+The fourth line contains an integer 2, the size of each blockedPositions[i][].
+The next x lines contain two space-separated integers, blockedPositions[i][1] and blockedPositions[i][2].
+
 ## Sample Case 0
 
+```
+STDIN               Function
+_____               ________
 
+4               →   n = 4
+4               →   m = 4
+2               →   blockedPositions[] size = 2
+2               →   blockedPositions[][] size = 2
+1 2             →   blockedPositions[0] = [1, 2]
+4 3             →   blockedPositions[1] = [4, 3]
+```
 
-<img src="path-problem-grid-2.jpg" alt="Path Problem Grid" width="25%" />
+## Sample Output 0
+
+```
+1
+7
+```
+
+## Explanation
+
+On the following path as shown below: (1, 1) -> (2, 1) -> (3, 1) -> (3, 2) -> (3, 3) -> (3, 4) -> (4, 4), the strength of the path = 1, and the number of cells visited = 7.
+Therefore, the answer = [1, 7].
+
+<img src="path-problem-grid-2.jpg" alt="Path Problem Grid Sample 0" width="25%" />
+
+In the image, the red crosses represent the blocked cells, the green stars represent the cells visited, and the blue arrows represent the path direction.
+
+## Sample Case 1
+
+```
+STDIN               Function
+_____               ________
+
+3               →   n = 3
+3               →   m = 3
+3               →   blockedPositions[] size = 3
+2               →   blockedPositions[][] size = 2
+1 2             →   blockedPositions[0] = [1, 2]
+2 1             →   blockedPositions[1] = [2, 1]
+2 2             →   blockedPositions[2] = [2, 2]
+```
+
+## Sample Output 1
