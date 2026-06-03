@@ -63,12 +63,14 @@ The next x lines contain two space-separated integers, blockedPositions[i][1] an
 STDIN               Function
 _____               ________
 
-4               →   n = 4
-4               →   m = 4
-2               →   blockedPositions[] size = 2
-2               →   blockedPositions[][] size = 2
-1 2             →   blockedPositions[0] = [1, 2]
-4 3             →   blockedPositions[1] = [4, 3]
+4              →    n = 4
+4              →    m = 4
+2              →    blockedPositions[] 
+size = 2
+2              →    blockedPositions[]
+[] size = 2
+1 2            →    blockedPositions = [1, 2], [4, 3]
+4 3
 ```
 
 ## Sample Output 0

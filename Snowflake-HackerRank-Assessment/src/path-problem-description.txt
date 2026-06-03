@@ -99,13 +99,13 @@ blockedPositions[i][2].
 STDIN               Function
 _____               ________
 
-4               →   n = 4
-4               →   m = 4
-2               →   blockedPositions[] 
+4              →    n = 4
+4              →    m = 4
+2              →    blockedPositions[] 
 size = 2
-2               →   blockedPositions[]
+2              →    blockedPositions[]
 [] size = 2
-1 2             →   blockedPositions = 
+1 2            →    blockedPositions = 
 [[1, 2], [4, 3]]
 4 3
 
