@@ -95,13 +95,13 @@ In the image, the red crosses represent the blocked cells, the green stars repre
 STDIN               Function
 _____               ________
 
-3               →   n = 3
-3               →   m = 3
-3               →   blockedPositions[] size = 3
-2               →   blockedPositions[][] size = 2
-1 2             →   blockedPositions[0] = [1, 2]
-2 1             →   blockedPositions[1] = [2, 1]
-2 2             →   blockedPositions[2] = [2, 2]
+3              →    n = 3
+3              →    m = 3
+3              →    blockedPositions[] size = 3
+2              →    blockedPositions[][] size = 2
+1 2            →    blockedPositions[0] = [1, 2]
+2 1            →    blockedPositions[1] = [2, 1]
+2 2            →    blockedPositions[2] = [2, 2]
 ```
 
 ## Sample Output 1
