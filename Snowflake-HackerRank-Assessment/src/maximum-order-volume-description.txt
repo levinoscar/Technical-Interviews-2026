@@ -1,3 +1,49 @@
 Maximum Order Volume
 
-A supermarket will receive calls with known start times
+A supermarket will receive calls with known start
+times, durations, and order volumes. Only one
+call can be handled at a time, and callers who
+are not answered will not call back.
+
+Determine which calls to answer to maximize
+the total order volume.
+
+Example
+start = [10, 5, 15, 18, 30]
+duration = [30, 12, 20, 35, 35]
+volume = [50, 51, 20, 25, 10]
+
+Call details:
+ * Call 1: starts at t = 10, ends at t = 40, volume 
+   = 50 
+ * Call 2: starts at t = 5, ends at t = 17, volume 
+   = 51
+ * Call 3: starts at t = 15, ends at t = 35, volume 
+   = 20
+ * Call 4: starts at t = 18, ends at t = 53, 
+   volume = 25
+ * Call 5: starts at t = 30, ends at t = 65,
+   volume = 10
+
+THe first call completely overlaps calls 2 and 3,
+and partially overlaps calls 4 and 5. By
+answering calls 2 and 4, which do not overlap,
+the maximum total order volume is 51 + 26 = 76.
+
+Function Description
+Complete the function phoneCalls in the editor
+with the following parameter(s):
+   int start[n]: the start times of each call
+   int duration[n]: the durations of each call
+   int volume[n]: the volumes of each other
+
+Returns
+  int: the maximum possible volume of colors
+that can be received
+
+Constraints
+* 1 ≤ n ≤ 10^5
+* 1 ≤ start[i] ≤ 10^9
+* 1 ≤ duration[i] ≤ 10^9
+* 1 ≤ volume[i] ≤ 10^3
+
