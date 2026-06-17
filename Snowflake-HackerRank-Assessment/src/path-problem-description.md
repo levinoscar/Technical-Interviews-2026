@@ -105,3 +105,11 @@ _____               ________
 ```
 
 ## Sample Output 1
+
+```
+-1
+-1
+```
+## Explanation
+
+It is impossible to go from (1, 1) to (3, 3).
