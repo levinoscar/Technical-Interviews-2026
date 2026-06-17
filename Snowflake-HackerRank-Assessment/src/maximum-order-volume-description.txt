@@ -47,3 +47,19 @@ Constraints
 * 1 ≤ duration[i] ≤ 10^9
 * 1 ≤ volume[i] ≤ 10^3
 
+## Input Format for Custom Testing
+
+The first line contains an integer, n, the size of
+the start array.
+Each line i of the n subsequent lines (where 0 ≤ i
+< n) contains an integer, start[i]
+The next line contains repeats the integer, n, the
+size of the duration array.
+Each line i of the n subsequent lines (where 0 ≤ i
+< n) contains an integer, duration[i]
+The nest line repeats the integer, n, size of the
+volume array.
+Each line i of the subsequent lines (where 0 ≤ i
+< n) contains an integer, volume[i]
+
+## Sample Case 0
