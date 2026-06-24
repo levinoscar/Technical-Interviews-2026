@@ -145,18 +145,27 @@ STDIN               Function
 _____               ________
 
 3               →   start[] size n = 3
-1               →   start[] = [ 1, 2, 4 ]
-2                
-4
+1               →   start[] = [ 1, 10, 100 ]
+10                
+100
 3               →   duration[] size n = 3
-2               →   duration[] = [ 2, 2, 1 ]
-2
-1
+1               →   duration[] = [ 1, 10, 100
+]
+10
+100
 3               →   volume[] size n = 3
-1               →   volume[] = [ 1, 2, 3 ]
-2
-3
+1               →   volume[] = [ 1, 10, 100 ]
+10
+100
 
 ## Sample Output
 
-4
+111
+
+## Explanation
+The calls happen in the following intervals:
+[1 2]
+[10 20]
+[100 200]
+All three cells can be attended. So the total
+volume is 1 + 10 + 100 = 111.
